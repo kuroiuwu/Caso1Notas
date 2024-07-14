@@ -57,6 +57,9 @@ document.addEventListener('DOMContentLoaded', () => {
     `;
     notesContainer.appendChild(noteCard);
   }
+  
+
+  
 
   fetchNotes();
 });

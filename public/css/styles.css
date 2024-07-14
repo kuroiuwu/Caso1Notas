@@ -76,5 +76,32 @@ body {
   #view-all-notes:hover {
     background-color: #45a049;
   }
+  .note-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .note-actions button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .note-actions button:hover {
+    background-color: #45a049;
+  }
+  
+  .note-actions button.delete {
+    background-color: #f44336;
+  }
+  
+  .note-actions button.delete:hover {
+    background-color: #e53935;
+  }
   
   
